@@ -6,42 +6,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Ömer Kakşi">
-    <title>My First Web Page</title>
+    <meta name="description" content="The official website for The Toca Shop" >
+    <title>The Little Taco Shop</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico">
 </head>
 <body>
 <header>
     <h1>Welcome to The Little Taco Shop</h1>
 <nav>
 <ul>
-<li><a href="#LTS">About LTS</a></li>
+<li><a href="#LTS">About <abbr title="The Little Taco Shop">LTS</abbr></a></li>
 <li><a href="#ourmenu">Our Menu</a></li>
 <li><a href="hours.html">Store Hours</a></li>
 <li><a href="contact.html">Contact Us</a></li>
 </ul>
 </nav>
-</header>    <!-- Your content goes here -->
-
-<main>
-    <p>This is my first web page.</p>
-    <img src="img/tacos_and_drink_400x267.png" alt="">
-<figure> <figcaption> Tacos and a Drink</figcaption>
+<figure>  <img src="img/tacos_and_drink_400x267.png" alt="Tacos-Drink" title="we love tacos"><figcaption> Tacos and a Drink</figcaption>
 </figure>
-<br>
-<br>
-<article id="LTS"></article>
+</header>    <!-- Your content goes here -->
+<hr>
+<main> 
+    <hr>
+<article id="LTS">
 <h2>About LTS</h2>
-<p>LTS was founded in 2022. Our shop was built from a love of tacos 🌮🌮🌮. We hope our shop adds a unique and interesting place to our little town.</p>
-<h3>Taco Trivia</h3>
-<aside><details><summary>When did tacos first appear in the United States?</summary><p>Jeffrey Pilcher taco historian in 1905 Source: Smithsonian Magazine</p></details></aside>
+<p>LTS was founded in 2022. Our shop was built from a   <strong>love of tacos</strong>  🌮🌮🌮. We hope our shop adds a unique and interesting place to our little town.</p>
 
-<article id="ourmenu"></article>
+<aside><h3>Taco Trivia</h3>
+    <details><summary>When did tacos first appear in the United States?</summary><p>Jeffrey Pilcher taco historian in 1905 Source: <cite><a href="https://www.google.com" target="_blank">Smithsonian Magazine</a></cite> </p></details></aside>
+</article>
+<hr>
+<article id="ourmenu">
 <h2>Our Menu</h2>
 <table> <caption>Our Tacos</caption>
     <thead>
         <tr><th>Tacos</th>
-            <th>Qty</th>
-            <th>Price</th></tr>
+            <th scope="col">Qty</th>
+            <th scope="col">Price</th></tr>
     </thead>
 <tbody>
 <tr><th rowspan="3">Crunchy</th> <td>1</td><td>$1.5</td></tr>
@@ -50,18 +51,17 @@
 <tr><th rowspan="3">Soft</th><td>1</td><td>$2</td></tr>
 <tr><td>2</td><td>$3.5</td></tr>
 <tr><td>3</td><td>$4.5</td></tr>
-<tfoot><tr><td colspan="3">Chips and Salsa $2</td></tr></tfoot>
-
-
-
 </tbody>
+<tfoot><tr><td colspan="3">Chips &amp; Salsa $2</td></tr>
+</tfoot>
 </table>
-
-
-
-
-
 <p><a href="#">Back to Top</a></p>
+</article>
+
+
+
+
+
 
 </main>
 
