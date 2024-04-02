@@ -14,7 +14,7 @@ else{
 }
 console.log(reply); */
 
-let testScore=81;
+/* let testScore=81;
 let collegeStudent=true;
 let grade;
 if (testScore>=90){
@@ -23,4 +23,15 @@ if (testScore>=90){
 else if(testScore>=80){
     grade="BB";
 }
-console.log(grade);
+console.log(grade); */
+
+switch(2){
+case 1: console.log(1);
+break;
+case 2: console.log(2);
+break;
+case 3: console.log(3);
+break;
+default: console.log("no match")
+
+}
