@@ -35,3 +35,10 @@ break;
 default: console.log("no match")
 
 }
+
+let testScore=71;
+let myGrade= testScore > 90 ? "AA"
+: testScore>80? "BB" 
+: testScore>70? "cc"
+: "yeter";
+ console.log(myGrade +` notum şu ki ${myGrade}`);
